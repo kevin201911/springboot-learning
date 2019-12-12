@@ -8,10 +8,13 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.timeout.IdleStateHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.net.InetSocketAddress;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 服务端
@@ -57,6 +60,9 @@ public class EchoServer {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
 //                            为监听客户端read/write事件的Channel添加用户自定义的ChannelHandler
                             socketChannel.pipeline().addLast(serverHandler);
+                            socketChannel.pipeline().addLast(new IdleStateHandler(5, 5, 5, TimeUnit.SECONDS));
+                            socketChannel.pipeline().addLast(new StringDecoder());
+                            socketChannel.pipeline().addLast(new HeartBeatServerHandler());
                         }
                     });
 
