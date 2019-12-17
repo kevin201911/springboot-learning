@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * @Description: mongo配置类
- * @Author:杨攀
- * @Since:2019年7月8日上午11:19:39
+ * @author kevin
+ * @Date 2019/12/14
  */
 @ConfigurationProperties(prefix = "topinfo.mongodb.base")
 @Component

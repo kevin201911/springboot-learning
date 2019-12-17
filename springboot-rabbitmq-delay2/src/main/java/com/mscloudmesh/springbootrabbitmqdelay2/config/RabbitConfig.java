@@ -13,7 +13,7 @@ import java.util.Map;
 
 /**
  * RabbitMQ配置
-
+  @author kevin
  */
 @Configuration
 public class RabbitConfig {

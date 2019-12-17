@@ -19,8 +19,8 @@ import com.mongodb.ServerAddress;
 
 /**
  * @Description: mongoConfig
- * @Author:杨攀
- * @Since:2019年7月8日上午11:22:57
+ * @author kevin
+ * @Date 2019/12/14
  */
 @Configuration
 public class MongoConfig {
@@ -34,8 +34,8 @@ public class MongoConfig {
     
     /**
      *@Description: MongoDbFactory
-     *@Author:杨攀
-     *@Since: 2019年7月8日下午4:02:33
+     * @author kevin
+     * @Date 2019/12/14
      *@param config
      *@return
      *@throws Exception

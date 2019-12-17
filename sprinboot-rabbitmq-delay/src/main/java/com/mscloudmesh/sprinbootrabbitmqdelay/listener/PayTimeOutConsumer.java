@@ -16,8 +16,8 @@ import com.rabbitmq.client.Channel;
 
 /**
  * @title 消息消费端
- * @author zengzp
- * @time 2018年8月20日 上午11:00:26
+ * @author kevin
+ * @Date 2019/12/14
  * @Description 
  */
 @Component

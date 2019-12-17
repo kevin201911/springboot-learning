@@ -12,9 +12,8 @@ import java.net.UnknownHostException;
 
 /**
  * @ClassName EsAloneConfig
- * @Author lihaodong
- * @Date 2018/12/24 09:59
- * @Mail lihaodongmail@163.com
+ * @author kevin
+ * @Date 2019/12/14
  * @Description elasticsearch单机配置
  * @Version 1.0
  **/

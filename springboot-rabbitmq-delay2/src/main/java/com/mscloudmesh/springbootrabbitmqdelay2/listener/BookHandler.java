@@ -16,8 +16,8 @@ import java.time.LocalDateTime;
 /**
  * BOOK_QUEUE 消费者
  *
- * @author Levin
- * @since 2018/4/11 0011
+ * @author kevin
+ * @date 2019/12/15
  */
 @Component
 public class BookHandler {

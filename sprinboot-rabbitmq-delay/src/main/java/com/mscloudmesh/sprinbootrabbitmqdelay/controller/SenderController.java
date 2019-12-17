@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import static com.sun.tools.doclint.Entity.trade;
 
 /**
- * @Author $
- * @Date $
- * @Version 1.0
+ * @author kevin
+ * @Date 2019/12/14
  **/
 
 @RestController

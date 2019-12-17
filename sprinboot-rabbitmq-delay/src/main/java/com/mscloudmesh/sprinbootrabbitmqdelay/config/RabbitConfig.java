@@ -18,8 +18,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @title rabbitmq配置类
- * @author zengzp
- * @time 2018年8月20日 上午10:46:43
+ * @author kevin
+ * @Date 2019/12/14
  * @Description 
  */
 @Configuration

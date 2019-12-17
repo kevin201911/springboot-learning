@@ -9,9 +9,8 @@ import java.util.Date;
 
 /**
  * @ClassName Book
- * @Author lihaodong
- * @Date 2018/12/20 09:29
- * @Mail lihaodongmail@163.com
+ * @author kevin
+ * @Date 2019/12/14
  * @Description
  * @Version 1.0
  **/
