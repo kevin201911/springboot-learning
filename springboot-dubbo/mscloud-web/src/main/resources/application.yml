@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: consumer
+server:
+  port: 9091
+hello:
+  service:
+    version: 1.0.0
+dubbo:
+  application:
+    id: consumer-id01
+    name: consumer-name01
+  registry:
+    protocol: zookeeper
+#    address: ip:2181,ip:2182,ip:2183
+    id: lin-registry-1
+    address: localhost:2181
+management:
+  endpoint:
+    dubbo-configs:
+      enabled: true
+    dubbo:
+      enabled: true
+    dubbo-services:
+      enabled: true
+    dubbo-properties:
+      enabled: true
+    dubbo-shutdown:
+      enabled: true
+    dubbo-references:
+      enabled: true
+  health:
+    dubbo:
+      status:
+        defaults: memory
+        extras: load,threadpool
+  endpoints:
+    web:
+      exposure:
+        include: '*'

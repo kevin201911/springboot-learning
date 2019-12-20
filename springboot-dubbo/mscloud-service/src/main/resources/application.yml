@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: provider
+server:
+  port: 9090
+dubbo:
+  registry:
+    protocol: zookeeper
+#    address: ip:2181,ip:2182,ip:2183
+    id: registry-1
+    address: localhost:2181
+  protocol:
+    port: 12345
+    name: dubbo
+    id: dubbo
+    status: server
+  application:
+    name: dubbo-provider-name01
+    id: provider-id01
+    qos-enable: true
+    qos-port: 22222
+  scan:
+    basePackages: com.linshen.dubbo.provider.service
+hello:
+  service:
+    version: 1.0.0
