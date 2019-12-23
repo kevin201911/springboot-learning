@@ -1,6 +1,7 @@
-package org.txlcn.demo.common.db.mapper;
+package com.mscloudmesh.common.db.mapper;
 
-import org.txlcn.demo.common.db.domain.Demo;
+
+import com.mscloudmesh.common.db.domain.Demo;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;

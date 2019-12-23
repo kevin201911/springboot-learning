@@ -1,4 +1,4 @@
-package org.txlcn.demo.dubbo.servicea;
+package com.mscloudmesh.servicea;
 
 /**
  * Description:

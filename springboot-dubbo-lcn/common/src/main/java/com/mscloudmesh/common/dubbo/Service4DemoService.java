@@ -1,4 +1,4 @@
-package org.txlcn.demo.common.dubbo;
+package com.mscloudmesh.common.dubbo;
 
 
 /**

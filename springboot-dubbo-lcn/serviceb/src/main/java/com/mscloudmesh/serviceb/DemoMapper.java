@@ -1,7 +1,8 @@
-package org.txlcn.demo.dubbo.serviceb;
+package com.mscloudmesh.serviceb;
 
+import com.mscloudmesh.common.db.mapper.BaseDemoMapper;
 import org.apache.ibatis.annotations.Mapper;
-import org.txlcn.demo.common.db.mapper.BaseDemoMapper;
+
 
 /**
  * Description:

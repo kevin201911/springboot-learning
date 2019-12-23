@@ -1,3 +1,5 @@
+package com.mscloudmesh.servicec;
+
 import com.mscloudmesh.common.db.mapper.BaseDemoMapper;
 import org.apache.ibatis.annotations.Mapper;
 

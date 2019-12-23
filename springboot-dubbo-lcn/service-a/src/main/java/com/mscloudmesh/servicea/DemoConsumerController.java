@@ -1,4 +1,4 @@
-package org.txlcn.demo.dubbo.servicea;
+package com.mscloudmesh.servicea;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

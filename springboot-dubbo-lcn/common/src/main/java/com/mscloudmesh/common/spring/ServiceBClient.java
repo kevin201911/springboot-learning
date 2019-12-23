@@ -1,4 +1,4 @@
-package org.txlcn.demo.common.spring;
+package com.mscloudmesh.common.spring;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

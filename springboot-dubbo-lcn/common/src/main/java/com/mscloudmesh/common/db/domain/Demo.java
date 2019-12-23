@@ -1,4 +1,4 @@
-package org.txlcn.demo.common.db.domain;
+package com.mscloudmesh.common.db.domain;
 
 import com.codingapi.txlcn.common.util.id.RandomUtils;
 import lombok.AllArgsConstructor;

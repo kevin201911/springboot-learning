@@ -1,13 +1,15 @@
-package org.txlcn.demo.dubbo.serviceb;
+package com.mscloudmesh.serviceb;
 
 import com.alibaba.dubbo.config.annotation.Service;
+
 import com.codingapi.txlcn.common.util.Transactions;
 import com.codingapi.txlcn.tc.annotation.TxTransaction;
 import com.codingapi.txlcn.tracing.TracingContext;
+import com.mscloudmesh.common.db.domain.Demo;
+import com.mscloudmesh.common.dubbo.DemoServiceB;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.txlcn.demo.common.db.domain.Demo;
-import org.txlcn.demo.common.dubbo.DemoServiceB;
+
 
 import java.util.Date;
 
